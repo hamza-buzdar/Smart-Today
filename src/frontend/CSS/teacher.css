@@ -1,0 +1,363 @@
+.teacher-frame-child {
+  width: 642px;
+  height: 415px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-darkslategray-200);
+  display: none;
+  max-width: 100%;
+}
+.complete-your-account1,
+.of-3-steps2 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-7xl);
+  font-weight: 700;
+  font-family: var(--font-helvetica);
+  color: var(--white-ffffff);
+  text-align: left;
+  z-index: 1;
+}
+.of-3-steps2 {
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+}
+.empty-frame2,
+.f-r-a-m-e-a1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.f-r-a-m-e-a1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.empty-frame2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) var(--padding-mid) 0;
+  box-sizing: border-box;
+}
+.rectangle-shape1 {
+  align-self: stretch;
+  height: 13px;
+  position: relative;
+  border-radius: var(--br-6xs-5);
+  background-color: var(--color-dodgerblue-200);
+  z-index: 1;
+}
+.school1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 11.47px;
+  font-family: var(--font-helvetica);
+  color: var(--white-ffffff);
+  text-align: center;
+  z-index: 1;
+}
+.parents-call-you {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.email-frame,
+.school-text {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.email-frame {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro-200);
+  height: 37px;
+  border-radius: var(--br-10xs);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-sm) var(--padding-3xs) var(--padding-smi);
+  box-sizing: border-box;
+  font-family: var(--font-helvetica);
+  font-size: var(--font-size-5xs);
+  color: var(--color-dimgray-100);
+  min-width: 157px;
+  z-index: 1;
+}
+.school-text {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px 0;
+}
+.role {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 11.47px;
+  font-family: var(--font-helvetica);
+  color: var(--white-ffffff);
+  text-align: center;
+  z-index: 1;
+}
+.complete-your-account2,
+.school-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.school-name {
+  align-self: stretch;
+  gap: 14px 0;
+}
+.complete-your-account2 {
+  flex: 1;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 170px;
+}
+.students-call-you {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 11.47px;
+  font-family: var(--font-helvetica);
+  color: var(--white-ffffff);
+  text-align: center;
+  z-index: 1;
+}
+.taught-by-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.email-selection-frame {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gainsboro-200);
+  align-self: stretch;
+  height: 37px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  min-width: 128px;
+  z-index: 1;
+}
+.students-taught {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 11.47px;
+  font-family: var(--font-helvetica);
+  color: var(--white-ffffff);
+  text-align: center;
+  z-index: 1;
+}
+.taught-by-frame1 {
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+}
+.inner-frame1,
+.student-called,
+.student-frame1,
+.taught-by-frame1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.student-called {
+  width: 213px;
+  flex-direction: column;
+  gap: 9px 0;
+}
+.inner-frame1,
+.student-frame1 {
+  align-self: stretch;
+}
+.inner-frame1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 12px;
+}
+.student-frame1 {
+  flex-direction: column;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 17px 0;
+}
+.parent-email-input,
+.parent-email-input-child {
+  height: 37px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gainsboro-200);
+}
+.parent-email-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-3xs) var(--padding-smi);
+  box-sizing: border-box;
+  font-family: var(--font-helvetica);
+  font-size: var(--font-size-5xs);
+  color: var(--color-dimgray-100);
+  min-width: 170px;
+  z-index: 1;
+}
+.parent-email-input-child {
+  width: 213px;
+  position: relative;
+  display: none;
+}
+.select {
+  position: relative;
+  font-size: var(--font-size-5xs);
+  line-height: 9.56px;
+  font-family: var(--font-helvetica);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  z-index: 2;
+}
+.parent-email-input1,
+.student-call-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.parent-email-input1 {
+  width: 213px;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-gainsboro-200);
+  align-items: center;
+  padding: var(--padding-sm) var(--padding-5xs) var(--padding-smi);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.student-call-frame {
+  align-self: stretch;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 12px;
+}
+.previous-step1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 11.47px;
+  font-family: var(--font-helvetica);
+  color: var(--white-ffffff);
+  text-align: left;
+  z-index: 1;
+}
+.next-button-child {
+  height: 36px;
+  width: 162px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  background-color: var(--color-dodgerblue-200);
+  display: none;
+}
+.finish-sign-up2 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 11.47px;
+  font-family: var(--font-helvetica);
+  color: var(--white-ffffff);
+  text-align: left;
+  z-index: 2;
+}
+.finish-sign-up1,
+.next-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.next-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-21xl) var(--padding-xs)
+    var(--padding-22xl);
+  background-color: var(--color-dodgerblue-200);
+  border-radius: var(--br-10xs);
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.next-button:hover {
+  background-color: var(--color-cornflowerblue-200);
+}
+.finish-sign-up1 {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.parent-email-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 52px 0;
+}
+.teacher,
+.teacher-frame1 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.teacher-frame1 {
+  margin: 0;
+  width: 642px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-darkslategray-200);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-42xl) var(--padding-58xl) var(--padding-41xl)
+    var(--padding-57xl);
+  gap: 5px 0;
+  max-width: 100%;
+}
+.teacher {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: 182px var(--padding-xl) 183px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 650px) {
+  .teacher-frame1 {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 625px) {
+  .f-r-a-m-e-a1 {
+    flex-wrap: wrap;
+  }
+  .parent-email-frame {
+    gap: 52px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .complete-your-account1 {
+    font-size: var(--font-size-2xl);
+  }
+  .of-3-steps2 {
+    font-size: var(--font-size-base);
+  }
+  .finish-sign-up1 {
+    flex-wrap: wrap;
+  }
+  .teacher-frame1 {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}

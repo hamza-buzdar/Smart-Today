@@ -1,0 +1,419 @@
+.home5 {
+  color: var(--color-dodgerblue-200);
+}
+.assignments4,
+.classes6,
+.home5,
+.school6 {
+  position: relative;
+  line-height: 11.47px;
+}
+.school6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 57px;
+}
+.line-component {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  border-top: 1px solid var(--color-dodgerblue-200);
+  box-sizing: border-box;
+  width: 58px;
+  height: 1px;
+}
+.school-frame3 {
+  align-self: stretch;
+  height: 14px;
+  position: relative;
+}
+.school-frame-wrapper {
+  width: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.reports4 {
+  position: relative;
+  line-height: 11.47px;
+}
+.reports-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.account4 {
+  position: relative;
+  line-height: 11.47px;
+}
+.frame-icon1 {
+  height: 8.1px;
+  width: 15px;
+  position: relative;
+  object-fit: contain;
+}
+.text-component {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 3px;
+}
+.home-classes-assignments-frame,
+.main-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.home-classes-assignments-frame {
+  width: 592px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.main-frame {
+  align-self: stretch;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white-ffffff);
+  font-family: var(--font-helvetica);
+}
+.layer-component-child {
+  align-self: stretch;
+  height: 509px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-300);
+  display: none;
+}
+.layer-2-icon {
+  height: 23.9px;
+  width: 23.8px;
+  position: relative;
+  z-index: 1;
+}
+.keser-torah-boys {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.text-component-wrapper,
+.text-component1,
+.text-component2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text-component2 {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.text-component-wrapper,
+.text-component1 {
+  flex-direction: row;
+}
+.text-component1 {
+  gap: 0 7px;
+}
+.text-component-wrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-base) var(--padding-sm);
+}
+.class-lines1,
+.save-time-frame {
+  border-top: 1px solid var(--white-ffffff);
+  box-sizing: border-box;
+  height: 1px;
+  z-index: 1;
+}
+.save-time-frame {
+  align-self: stretch;
+  position: relative;
+}
+.class-lines1 {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  width: 1025px;
+}
+.school-classes,
+.students3,
+.teachers2 {
+  position: absolute;
+  top: 21px;
+  line-height: 11.47px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.school-classes {
+  left: 31px;
+  color: var(--color-dodgerblue-200);
+  width: 116px;
+}
+.students3,
+.teachers2 {
+  left: 208px;
+  width: 64px;
+}
+.teachers2 {
+  left: 339px;
+  width: 65px;
+}
+.class-lines-child,
+.class-lines-inner,
+.class-lines-item {
+  position: absolute;
+  top: 0;
+  left: 174px;
+  border-right: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 55px;
+  z-index: 2;
+}
+.class-lines-inner,
+.class-lines-item {
+  left: 307px;
+}
+.class-lines-inner {
+  left: 440px;
+}
+.class-lines {
+  width: 1024px;
+  height: 88px;
+  position: relative;
+  overflow-x: auto;
+  flex-shrink: 0;
+  max-width: 100%;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.sync-school {
+  position: relative;
+  z-index: 1;
+}
+.group-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-base);
+}
+.sync-school-text-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.sync-school-text {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.find-out-more-frame {
+  width: 271px;
+  height: 210px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+}
+.save-hours-of {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 17px;
+  text-align: center;
+  z-index: 1;
+}
+.learn-more-start-frame-child {
+  height: 46px;
+  width: 144px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-dodgerblue-200);
+  display: none;
+}
+.find-out-more {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 11.47px;
+  font-family: var(--font-helvetica);
+  color: var(--white-ffffff);
+  text-align: left;
+  z-index: 2;
+}
+.learn-more-start-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid);
+  background-color: var(--color-dodgerblue-200);
+  flex: 1;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.learn-more-start-frame:hover {
+  background-color: var(--color-cornflowerblue-200);
+}
+.learn-more-start-frame-item {
+  height: 46px;
+  width: 144px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--white-ffffff);
+  display: none;
+}
+.start-syncing {
+  width: 106px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 11.47px;
+  font-family: var(--font-helvetica);
+  color: var(--color-darkslateblue-100);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.learn-more-start-frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid);
+  background-color: var(--white-ffffff);
+  flex: 1;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.learn-more-start-frame1:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.button-frames,
+.find-out-more-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button-frames {
+  flex: 1;
+  gap: 0 16px;
+}
+.find-out-more-frame1 {
+  width: 306px;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.layer-component,
+.report-frame {
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.report-frame {
+  width: 512px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 19px 0;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+}
+.layer-component {
+  width: 1024px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-300);
+  padding: var(--padding-sm) 0 var(--padding-15xl);
+  box-sizing: border-box;
+}
+.layer-component,
+.layer-component-wrapper,
+.school5 {
+  display: flex;
+  justify-content: flex-start;
+}
+.layer-component-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--white-ffffff);
+  font-family: var(--font-helvetica);
+}
+.school5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-14xl) var(--padding-25xl) 99px var(--padding-189xl);
+  box-sizing: border-box;
+  gap: 49px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .school5 {
+    gap: 49px 0;
+    padding-left: var(--padding-85xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .layer-component {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-classes-assignments-frame {
+    display: none;
+  }
+  .keser-torah-boys {
+    font-size: var(--font-size-lg);
+  }
+  .sync-school {
+    font-size: var(--font-size-base);
+  }
+  .school5 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

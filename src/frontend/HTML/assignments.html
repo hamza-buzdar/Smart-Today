@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/src/frontend/CSS/global.css" />
+    <link rel="stylesheet" href="/src/frontend/CSS/assignments.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas Neue:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Red Hat Text:ital,wght@1,300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Prata:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Biryani:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium Book Plus:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Racing Sans One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="assignments2">
+      <section class="assignments-frame">
+        <div class="f-r-a-m-e">
+          <div class="home-classes-frame">
+            <b class="home4">Home</b>
+            <b class="classes4">Classes</b>
+            <div class="home-assignments-frame">
+              <b class="assignments3">Assignments</b>
+              <div class="home-assignments-frame-child"></div>
+            </div>
+            <div class="school-frame">
+              <b class="school4">School</b>
+            </div>
+            <div class="school-frame1">
+              <b class="reports2">Reports</b>
+            </div>
+            <div class="account-frame">
+              <b class="account3">Account</b>
+              <img
+                class="account-frame-child"
+                alt=""
+                src="/public/text-frame.svg"
+              />
+            </div>
+          </div>
+          <div class="your-assignments-frame">
+            <div class="classes-due-date-frame">
+              <div class="classes-frame1">
+                <div class="rectangle2">
+                  <div class="vector">
+                    <h2 class="your-assignments">Your assignments</h2>
+                    <div class="this-week-label">
+                      <div class="create-assignment-label">
+                        <div class="component-frame1">
+                          <div class="classes5">Classes</div>
+                          <div class="due-date">Due date</div>
+                        </div>
+                        <div class="home-classes-frame1">
+                          <div class="school-frame2">
+                            <div class="school-frame-child"></div>
+                            <div class="reports3">
+                              <div class="assignments-frame1">
+                                <div class="classes-due-date"></div>
+                                <img
+                                  class="rectangle-icon"
+                                  alt=""
+                                  src="/public/rectangle.svg"
+                                />
+                              </div>
+                              <div class="all-selected">All selected</div>
+                            </div>
+                            <img
+                              class="this-week-vector"
+                              alt=""
+                              src="/public/vector-14.svg"
+                            />
+                          </div>
+                          <div class="create-assignment-text">
+                            <div class="create-assignment-text-child"></div>
+                            <div class="this-week">This week</div>
+                            <img
+                              class="vector-icon8"
+                              alt=""
+                              src="/public/vector-14.svg"
+                              id="vectorIcon"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="rectangle-parent4">
+                  <div class="frame-child15"></div>
+                  <img
+                    class="component-icon"
+                    alt=""
+                    src="/public/vector-31.svg"
+                  />
+
+                  <div class="create-assignment1">Create assignment</div>
+                </button>
+              </div>
+              <div class="vector1">
+                <div class="vector-child"></div>
+                <img
+                  class="vector-icon9"
+                  loading="eager"
+                  alt=""
+                  src="/public/vector-4.svg"
+                />
+
+                <div class="you-dont-have-container">
+                  <p class="you-dont-have">
+                    You don't have any assignments due this week for any of your
+                    classes.
+                  </p>
+                  <p class="use-the-due">
+                    Use the due date dropdown above to select a different date
+                  </p>
+                  <p class="range">range.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="assignments-child"></footer>
+    </div>
+
+    <script>
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function (e) {
+          window.location.href = "./dashboard.html";
+        });
+      }
+      </script>
+  </body>
+</html>
